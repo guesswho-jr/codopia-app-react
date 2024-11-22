@@ -1,0 +1,49 @@
+{
+  "name": "codopia",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.21.0",
+    "@tanstack/react-query": "^5.32.1",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "axios": "^1.6.8",
+    "escape-string-regexp": "^5.0.0",
+    "expo": "~50.0.17",
+    "expo-dev-client": "~3.3.11",
+    "expo-file-system": "~16.0.9",
+    "expo-font": "~11.10.3",
+    "expo-linking": "~6.2.2",
+    "expo-modules-core": "~1.11.13",
+    "expo-router": "^3.5.17",
+    "expo-secure-store": "~12.8.1",
+    "expo-splash-screen": "~0.26.5",
+    "expo-status-bar": "~1.11.1",
+    "expo-system-ui": "~2.9.4",
+    "expo-updates": "~0.24.12",
+    "formik": "^2.4.6",
+    "react": "18.2.0",
+    "react-native": "0.73.6",
+    "react-native-gesture-handler": "~2.14.0",
+    "react-native-progress": "^5.0.1",
+    "react-native-syntax-highlighter": "^2.1.0",
+    "react-native-zip-archive": "^7.0.0",
+    "react-syntax-highlighter": "^15.5.0",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@swc/cli": "^0.3.12",
+    "@swc/core": "^1.5.24",
+    "@types/react": "~18.2.45",
+    "@types/react-native": "^0.73.0",
+    "expo-doctor": "^1.6.1",
+    "typescript": "^5.1.3"
+  },
+  "private": true
+}

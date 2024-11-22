@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "Codopia beta",
+    "slug": "Codopia-beta",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo-icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "nf.free.codopia"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splash.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "nf.free.codopia",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/splash.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "app/fonts/Nexa.otf"
+          ]
+        }
+      ]
+    ],
+    "scheme": "codopia",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "1e9bd1ff-7c6b-4869-beff-2467cb1ee84c"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/1e9bd1ff-7c6b-4869-beff-2467cb1ee84c"
+    }
+  }
+}
